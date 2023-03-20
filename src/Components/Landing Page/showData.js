@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 import SingleTvShow from "./SingleTvShow";
-import "../App.css";
+import "../../App.css";
 
 function ShowData() {
   const [series, setSeries] = useState([]);
